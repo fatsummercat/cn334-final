@@ -1,0 +1,19 @@
+.top-sellers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+  padding-top: 96px;
+}
+
+.top-sellers-container h1 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #444444;
+}
+
+.top-sellers {
+  display: flex;
+  margin-top: 50px;
+}

@@ -1,0 +1,47 @@
+.category {
+  padding-bottom: 96px;
+}
+
+.category-hero-text {
+  font-size: 52px;
+  color: white;
+  position: absolute; /* Position the text absolutely */
+  top: 42%; /* Move the text to the middle vertically */
+  left: 50%; /* Move the text to the middle horizontally */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.category-banner {
+  display: block;
+  margin: 30px auto;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative; /* Make the banner relative to its container */
+}
+
+.category-index-sort {
+  display: flex;
+  margin: 0px 170px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-sort {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1px solid #888;
+}
+
+.category-index-sort p span {
+  font-weight: 600;
+}
+
+.category-products {
+  margin: 20px 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 80px;
+}

@@ -1,0 +1,44 @@
+.guarantee-container {
+  background: #f8f8f8;
+  padding: 52px 100px;
+}
+
+.guarantee-text h2 {
+  font-size: 35px;
+  color: #444444;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.guarantee-text p {
+  font-size: 18px;
+  color: #444444;
+  text-align: center;
+}
+
+.guarantee-icons {
+  padding: 48px 140px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.high-quality {
+  text-align: center;
+  color: #211b1b;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.free-shipping {
+  text-align: center;
+  color: #211b1b;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.easy-returns {
+  text-align: center;
+  color: #211b1b;
+  font-weight: 700;
+  font-size: 12px;
+}

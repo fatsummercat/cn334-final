@@ -1,0 +1,35 @@
+.item {
+  width: 350px;
+  cursor: pointer;
+}
+
+.item img {
+  width: 340px;
+  height: 340px;
+}
+
+.item p {
+  margin: 6px 0px;
+  font-size: 12px;
+}
+
+.item-prices {
+  display: flex;
+  gap: 10px;
+}
+
+.item-discounted-price {
+  color: #8c6027;
+  font-size: 13px;
+}
+
+.item-price {
+  color: #7c7c7c;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  transition: 0.9s;
+}

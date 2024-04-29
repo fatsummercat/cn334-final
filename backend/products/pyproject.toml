@@ -1,0 +1,22 @@
+[project]
+name = "products"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Tinn-K", email = "tinn.kanjananuwat@gmail.com"},
+]
+dependencies = [
+    "fastapi>=0.110.2",
+    "uvicorn[standard]>=0.29.0",
+    "sqlalchemy>=2.0.29",
+    "asyncpg>=0.29.0",
+    "pydantic>=2.7.1",
+    "requests>=2.31.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

@@ -1,0 +1,20 @@
+[project]
+name = "cn334_final"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Tinn-K", email = "tinn.kanjananuwat@gmail.com"},
+]
+dependencies = [
+    "alembic>=1.13.1",
+    "python-dotenv>=1.0.1",
+    "asyncpg>=0.29.0",
+    "greenlet>=3.0.3",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
